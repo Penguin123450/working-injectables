@@ -1,6 +1,6 @@
 (async() => {
 	await ModMenu.init();
-	ModMenu.menu.arr.push(new ModMenu.MenuTree('glixzzy', [
+	ModMenu.menu.arr.push(new ModMenu.MenuTree('Hacks', [
 		new ModMenu.MenuTree('Cafe', [
 			new ModMenu.MenuButton('Get Coins', () => fetch("https://raw.githubusercontent.com/Penguin123450/blooket-hack/main/cafe/getCoins.js").then((res) => res.text().then((t) => eval(t)))),
 			new ModMenu.MenuButton('End Game', () => fetch("https://raw.githubusercontent.com/Penguin123450/blooket-hack/main/cafe/endGame.js").then((res) => res.text().then((t) => eval(t)))),
@@ -10,11 +10,11 @@
 			new ModMenu.MenuButton('Hack Other Users Password', () => fetch("https://raw.githubusercontent.com/Penguin123450/blooket-hack/main/crypto/hackOtherUsersPassword.js").then((res) => res.text().then((t) => eval(t)))),
 		]),
 		new ModMenu.MenuTree('Factory', [
-			new ModMenu.MenuButton('Get Cash', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/factory/getCash.js").then((res) => res.text().then((t) => eval(t)))),
-			new ModMenu.MenuButton('Get Mega Bot', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/factory/getMegaBot.js").then((res) => res.text().then((t) => eval(t)))),
+			new ModMenu.MenuButton('Get Cash', () => fetch("https://raw.githubusercontent.com/Penguin123450/blooket-hack/main/factory/getCash.js").then((res) => res.text().then((t) => eval(t)))),
+			new ModMenu.MenuButton('Get Mega Bot', () => fetch("https://raw.githubusercontent.com/Penguin123450/blooket-hack/main/factory/getMegaBot.js").then((res) => res.text().then((t) => eval(t)))),
 		]),
 		new ModMenu.MenuTree('Fishing Frenzy', [
-			new ModMenu.MenuButton('Set Weight', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/fishing-frenzy/setWeight.js").then((res) => res.text().then((t) => eval(t)))),
+			new ModMenu.MenuButton('Set Weight', () => fetch("https://raw.githubusercontent.com/Penguin123450/blooket-hack/main/fishing-frenzy/setWeight.js").then((res) => res.text().then((t) => eval(t)))),
 		]),
 		new ModMenu.MenuTree('Global', [
 			new ModMenu.MenuButton('Add Tokens', () => fetch("https://raw.githubusercontent.com/Penguin123450/blooket-hack/53af610aed644e2cab6f9683a8b7dc84e08a7cc5/global/addTokens.js").then((res) => res.text().then((t) => eval(t)))),
